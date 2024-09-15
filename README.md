@@ -4,6 +4,10 @@ Please note, that TeamCal Neo 4 is a new major release and is not compatible wit
 However, you can upgrade your existing TeamCal Neo 3 installation to TeamCal Neo 4 by following the instructions in the
 upgrade guide below.
 
+This is the first beta release of TeamCal Neo 4. I'd love to hear your thoughts and please report any issues you find on GitHub.
+
+[TeamCal Neo issues](https://github.com/glewe/teamcal-neo/issues)
+
 ## Changes in the new release
 TeamCal Neo 4 comes with several updates and improvements. Also, some features have been removed since they were not
 state of the art anymore. Here are some of the most important changes:
@@ -55,11 +59,6 @@ To upgrade your existing TeamCal Neo 3 installation to TeamCal Neo 4, please fol
    `define('APP_INSTALLED',"1");`
 6. Edit config/config.db.php and update your database settings from your backup.
 7. Delete file installation.php in the root directory.
-
-## Feedback
-I'd love to read your feedback or questions. Pllease feel free to open an issue on GitHub.
-
-[TeamCal Neo issues](https://github.com/glewe/teamcal-neo/issues)
 
 Best regards,
 George Lewe
