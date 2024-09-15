@@ -4,7 +4,7 @@ Please note, that TeamCal Neo 4 is a new major release and is not compatible wit
 However, you can upgrade your existing TeamCal Neo 3 installation to TeamCal Neo 4 by following the instructions in the
 upgrade guide below.
 
-This is the first beta release of TeamCal Neo 4. I'd love to hear your thoughts and please report any issues you find on GitHub.
+This is the first beta release of TeamCal Neo 4. I'd love to hear your thoughts. Please report any issues you find on GitHub.
 
 [TeamCal Neo issues](https://github.com/glewe/teamcal-neo/issues)
 
