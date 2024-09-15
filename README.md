@@ -14,19 +14,21 @@ state of the art anymore. Here are some of the most important changes:
 - [Fixed reset password on users page](https://github.com/glewe/teamcal-neo/issues/5)
 
 ### New Features
+- Added content narrow and wide mode toggle
+- Vertical sidebar menu for wide screens
 - [Absence patterns](https://lewe.gitbook.io/teamcal-neo/administration/absence-patterns)
 - [Added LDAP test configuration](https://github.com/glewe/teamcal-neo/issues/3)
 - [Added Bootstrap Dark and Light mode](https://github.com/glewe/teamcal-neo/issues/2)
 - Added Bootstrap Icons
 
 ### Improvements
+- New TeamCal Neo icon
 - Faster permission check
 - Cleaner form and page layout
 - Footer links were reduced to Data Privacy and Imprint (smaller footer)
-- Added table indexes for faster database operations
+- Database optimizations
 - [Added client IP address to log entries](https://github.com/glewe/teamcal-neo/issues/4)
 - [Added autoclose option to alert messages](https://github.com/glewe/teamcal-neo/issues/1)
-- Dastabase optimizations
 - Nicer release information on the About page
 
 ### Removed Features
@@ -45,6 +47,7 @@ To upgrade your existing TeamCal Neo 3 installation to TeamCal Neo 4, please fol
     - /addons/select2
     - /addons/x-editable
     - /themes/(all folders but 'bootstrap')
+    - /images/icons/logo-*.png
 3. Download the new release, unzip and overwrite all files
 4. Changes in your database: Run the SQL statements from the file:
     - /sql/upgrade_3.9.3_to_4.0.0.sql
